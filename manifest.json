@@ -1,0 +1,36 @@
+
+  {
+    "name": "reizha",
+    "short_name": "reizha",
+    "description": "submission 2 dicoidng",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [
+        {
+            "src": "/icon/icon2.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }, {
+            "src": "/icon/icon3.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon/icon4.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon/icon5.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "gcm_sender_id": "991213906493"
+}

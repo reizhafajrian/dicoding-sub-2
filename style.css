@@ -1,0 +1,39 @@
+.red{
+    position: relative !important;
+}
+.row .col.m6{
+    width: 100%;
+}
+.card-content,.card-content-topscore{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#image-team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0px;
+    font-size: 24px;
+}
+nav{
+    background-color: red !important;
+}
+#id-details{
+    visibility: hidden;
+}
+.card-content-topscore{
+    padding: 10px;
+    justify-content: space-between;
+}
+button{
+   background-color: white;
+   border-radius: 3px;
+   border: none;
+   width: 100px;
+   padding: 10px;
+}
