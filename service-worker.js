@@ -4,59 +4,59 @@ if(workbox){
     console.log("workbok berhasil")
     workbox.precaching.precacheAndRoute([
         {
-        url: '/',
+        url: './',
         revision: '1'
     },
     {
-        url: '/icon/icon2.png',
+        url: './icon/icon2.png',
         revision: '1'
     },
     {
-        url: '/js/api.js',
+        url: './js/api.js',
         revision: '1'
     },
     {
-        url: '/js/index.js',
+        url: './js/index.js',
         revision: '1'
     },
     {
-        url: '/js/idb.js',
+        url: './js/idb.js',
         revision: '1'
     },
     {
-        url: '/js/db.js',
+        url: './js/db.js',
         revision: '1'
     },
     {
-        url: '/pages/home.html',
+        url: './pages/home.html',
         revision: '1'
     },
     {
-        url: '/pages/topscorer.html',
+        url: './pages/topscorer.html',
         revision: '1'
     },
     {
-        url: '/pages/favorit.html',
+        url: './pages/favorit.html',
         revision: '1'
     },
     {
-        url: '/index.html',
+        url: './index.html',
         revision: '1'
     },
     {
-        url: '/manifest.json',
+        url: './manifest.json',
         revision: '1'
     },
     {
-        url: '/nav.html',
+        url: './nav.html',
         revision: '1'
     },
     {
-        url: '/push.js',
+        url: './push.js',
         revision: '1'
     },
     {
-        url: '/style.css',
+        url: './style.css',
         revision: '1'
     },
     {
@@ -74,21 +74,21 @@ if(workbox){
     },
 
     {
-        url: '/js/servicerun.js',
+        url: './js/servicerun.js',
         revision: '1'
     },
 
     {
-        url: '/icon/icon3.png',
+        url: './icon/icon3.png',
         revision: '1'
     },
 
     {
-        url: '/icon/icon4.png',
+        url: './icon/icon4.png',
         revision: '1'
     },
     {
-        url: '/icon/icon5.png',
+        url: './icon/icon5.png',
         revision: '1'
     },
 ]);
@@ -133,7 +133,7 @@ workbox.routing.registerRoute(
     })
 );
 workbox.routing.registerRoute(
-    new RegExp('/pages/'),
+    new RegExp('./pages/'),
     workbox.strategies.staleWhileRevalidate()
 );
 }
